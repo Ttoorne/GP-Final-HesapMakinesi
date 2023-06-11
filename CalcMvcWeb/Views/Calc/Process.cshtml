@@ -1,0 +1,18 @@
+﻿@model CalcMvcWeb.Models.CalcViewModel
+
+<h2>İşlem Numaraları...</h2>
+n1= @Model.Number1
+<br />
+n2= @Model.Number2
+<br />
+<form asp-action="Calc">
+    <h4>İşlenmiş</h4>
+    <hr />
+    <div class="form-group">
+        Sonuç:
+        @Html.DisplayFor(m => m.Result)
+    </div>
+</form>
+<div>
+    <a asp-action="Index">Hesaplamaya Geri Dön</a>
+</div>
