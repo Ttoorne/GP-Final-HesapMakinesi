@@ -19,7 +19,7 @@ Bu proje, Windows Forms kullanarak basit bir hesap makinesi uygulamasını ve bu
 1. Bu projeyi bilgisayarınıza klonlayın veya indirin.
 
    ```bash
-   git clone https://github.com/sizin-kullanici-adi/CalcApp30WithTests.git
+   git clone https://github.com/Ttoorne/GP-Final-HesapMakinesi.git
    ```
 
 2. Visual Studio gibi bir .NET geliştirme ortamında projeyi açın.
